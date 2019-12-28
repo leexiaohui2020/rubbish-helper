@@ -1,0 +1,28 @@
+@import '~style/var.less';
+
+.container-header {
+  height: 300 * @rem;
+  position: relative;
+  background-color: @color-theme;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &-logo {
+    @size: 80 * @rem;
+    width: @size;
+    height: @size;
+    border-radius: 10 * @rem;
+  }
+}
+
+.container-footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: @margin-df;
+  position: absolute;
+  text-align: center;
+  color: @color-gray;
+  font-size: @font-size-sm;
+}

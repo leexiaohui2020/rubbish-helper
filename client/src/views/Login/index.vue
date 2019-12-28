@@ -1,14 +1,15 @@
 <template>
-  <div class="login">
-    <div class="login-caption">
-      <h1 class="login-title">垃圾帮</h1>
-    </div>
-  </div>
+  <LeeMain>Login</LeeMain>
 </template>
 
 <script>
+import LeeMain from './components/Main/index.vue';
+
 export default {
   name: 'Login',
+  components: {
+    LeeMain,
+  },
 };
 </script>
 

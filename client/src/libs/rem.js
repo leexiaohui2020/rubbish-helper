@@ -1,6 +1,6 @@
 function resizeHandler() {
   const width = document.documentElement.offsetWidth;
-  document.documentElement.style.fontSize = `${28 * width / 750}px`;
+  document.documentElement.style.fontSize = `${32 * width / 750}px`;
 }
 
 window.addEventListener('load', resizeHandler);
